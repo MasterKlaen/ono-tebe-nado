@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./fonts/fonts.css">
     <link rel="stylesheet" href="./styles/global.css">
     <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./fonts/fonts.css">
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
    <!--Emmet Abbreviations
@@ -19,7 +19,7 @@
     <header class="header">
       <ul class="header__menu">
         <li class="header__links-list-item header__links-list-item_no-bullit">
-          <p class="header__link " href="#">главная</p>
+          <a class="header__link " href="#">главная</a>
         </li>
         <li class="header__links-list-item">
           <a class="header__link_active" href="#">посмотреть лоты</a>
@@ -33,13 +33,13 @@
             <img src="./images/logo-black.svg" alt="логотип">
           </div>
       </section>
-      <section class="address">
+      <div class="address">
         <address class="header__address">
           <a href="tel:+70000000">+9 999 555 5555</a>
           <a href="mailto:mail@example.com">info@sobaka.ge</a>
-          <a>наб.Принсенграхт 263-<br> 265, Амстердам</a>
+          <span>наб.Принсенграхт 263-<br> 265, Амстердам</span>
         </address>
-      </section>
+      </div>
     </header>
     <main class="main">
       <section class="cover">
@@ -49,7 +49,7 @@
            <span class="aligned-text_right"><span class="letter-spacing-extended">н</span>ад<span class="no-letter-spacing">о</span></span>
         </h1>
         <div class="cover__description">
-          <p class="cover__description-text">Аукцион<span class="whitespace"> </span>вещей,<span class="whitespace"> </span><span class="b-span">в</span><span class="whitespace"> </span>которые<span class="whitespace"> </span>никто<span class="whitespace"> </span>не<span class="whitespace"> </span>верил</p>
+          <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
           <button class="bet-button" type="button">Сделать ставку</button>
         </div>
         <div class="overlay"> </div>
@@ -93,16 +93,16 @@
         <div class="about__column">
           <div class="about__logo ">
             <div class="about__logo-image">
-              <img src="./images/logo-white.svg" alt="image">
+              <img src="./images/logo-white.svg" alt="Белый логотип Оно тебе надо">
             </div>
           </div>
           
           <div class="about__title">
-            <p class="first__title">Об аукционе</p>
+            <h2 class="first__title">Об аукционе</h2>
           </div>
           <div class="about__text">
-            <h4 class="text1">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями? </h4>
-            <h5 class="text2">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми.</h5>
+            <p class="text1">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями? </p>
+            <p class="text2">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми.</p>
           </div>
         </div>
       </section>
@@ -110,13 +110,13 @@
 
 
     <footer class="footer">
-      <section class="footer__address">
+      <div class="footer__address">
         <address class="footer__address">
           <a href="tel:+70000000">+9 999 555 5555</a>
           <a href="mailto:mail@example.com">info@sobaka.ge</a>
-          <a>наб.Принсенграхт 263-<br> 265, Амстердам</a>
+          <p>наб.Принсенграхт 263-<br> 265, Амстердам</p>
         </address>
-      </section>
+      </div>
         <nav class="footer__menu">
           <ul class="footer__menu-list">
             <li class="footer__menu-link_active"><a href="#" class="footer__menu-link_active none-dicor">главная</a></li>
