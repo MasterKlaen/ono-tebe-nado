@@ -1,6 +1,6 @@
 /*Кнопка*/
 .bet-button{
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 22px;
     font-weight: 500;
     line-height: 25.83px;
@@ -16,31 +16,27 @@
 .header{
     display: grid;
     grid-template-columns: 3fr 2fr 2fr;
-    width: 1052px;
-
+    width: 1100px;
     top: 92px;
     left: 24px;
-    gap: 0px;
-     
     background-color: #fff;
     margin-top: 92px;
     margin-bottom: 96px;   
 }
 .header__menu{
     display: flex;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 21.13px;
     text-align: left;
     position: relative;
     text-align: center;
-    padding: 44px 36px 39px 26.5px;
+    padding: 44px 6px 50px 50px;
     column-gap: 33px;
+
 }
-.header__links-list-item {
-    white-space: nowrap;
-  }
+
   /*УБРАТЬ КРУГ*/
 .header__links-list-item_no-bullit{
     list-style-type:none;
@@ -50,34 +46,29 @@ ul{
     list-style-type: circle;
 }
 .header__logo{
-    width: 129.11px;
+    width: 148px;
     height: 104.65px;
-    
-    
-    gap: 0px;
-    
+    padding-left: 11px;
     position: relative;
 }
 .address{
     max-width: 240.52px;
-    
     top: 5px;
     left: 786px;
-
     font-size: 18px;
     font-weight: 400;
     line-height: 24.3px;
-    padding-left:37.7px ;
+    padding-left:25px ;
     padding-top: 8px;
 }
+
 .header__address{
     font-style: normal; 
 }
-
 /*секция - COVER*/
 .cover{
     background: url(../images/cover.jpg) center no-repeat;
-    padding: 165px 50px 50px;
+    padding: 155px 50px 50px;
     color: #fff;
     background-size: cover;
     background-repeat: no-repeat;
@@ -89,7 +80,7 @@ ul{
 .cover__title{
     display: flex;
     flex-direction: column;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 100px;
     font-weight: 700;
     line-height: 115px;
@@ -103,7 +94,7 @@ ul{
 }
 .aligned-text_center{
     text-align: center;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 100px;
     font-weight: 700;
     line-height: 100px;
@@ -112,7 +103,7 @@ ul{
 
 .aligned-text_right{
     text-align: right;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 100px;
     font-weight: 700;
     line-height: 100px;
@@ -140,7 +131,7 @@ ul{
     flex-direction: row;
     justify-content: space-between;
     word-spacing: 20px;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 22px;
     font-weight: 400;
     line-height: 28px;
@@ -152,7 +143,7 @@ ul{
 }
 .cover__description-text{
     text-transform: uppercase;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 22px;
     font-weight: 400;
     line-height: 28px;
@@ -175,7 +166,7 @@ ul{
     
     
     left: 40px;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 40px;
     font-weight: 700;
     line-height: 46.96px;
@@ -222,7 +213,7 @@ ul{
     background-image: url(../images/card-lot-03.jpg);
 }
 .card__title{
-    font-size: 23px;
+    font-size: 22px;
     line-height: 26px;
     text-transform: uppercase;
     text-decoration: underline;
@@ -247,12 +238,13 @@ ul{
 
 /*начало about*/
 .about{ 
-    margin: 146px 24px 180px;
+    margin: 117px 14px 10px;
 }
 .about__column{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr 1fr 40px;
+    grid-template-rows: 1fr 1fr;
+    /*grid-template-rows: 265px 1fr 40px; */
     grid-template-areas: 
     "about__logo first__title first__title"
     ". about__text about__text " 
@@ -269,47 +261,48 @@ ul{
     grid-row-end: 2;
     justify-self:center;
     align-self: center;
-    padding: 59px 42px 62px;
+    margin-top: 58px;
+    margin-right: 4px;
+    padding: 69px 42px 62px;
 }
 .about__logo-image{
     position: relative;
-
     width: 141.54px;
     height: 112.55px;
     justify-self:center;
     align-self: center;
 }
-.first__title{
+.table__of__contents{
     position: relative;
     text-transform: uppercase;
     font-size: 40px;
     font-weight: 700;
     line-height: 46.96px;
-
-    padding-top: 120px;
+    padding-top: 167px;
     padding-left: 13px;
     padding-bottom: 100px;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
-
 }
-.about__text{
-    padding-left: 13px;
+.about__text{/*padding-left: px;*/
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 2;
-    grid-row-end: 4;
+    grid-row-end: 3;
 }
-.text1{
+.Glavtext{
+    
+    padding-left:11px;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.01em;
     text-align: left;
 }
-.text2{
+.DopText{
+    padding-left:11px;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
@@ -321,7 +314,7 @@ ul{
 /*начало footer*/
 
 .footer{
-    margin: 180px 50px 88px;
+    margin: 178px 50px 88px;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
 }
@@ -354,28 +347,32 @@ text-align: center;
 }
 .footer__social-list-item{
     display: flex;
-    width: Hug (240px)px;
-    height: Hug (48px)px;
-   
+    /*width: Hug (240px)px;
+    height: Hug (48px)px; */
     gap: 48px;
-    
     list-style-type:none;
     justify-content: space-between;
 }
+
 .footer__social-link{
     width: 48px;
     height: 48px;
 }
-.footer__address{
+.footer__social-link_proba{
+    padding-left: 2px;
+}
+.Contact__information{
     font-size: 18px;
     font-weight: 400;
     line-height: 24.3px;
     letter-spacing: 0.01em;
     text-align: left;
     max-width: 240.52px;
-    
     top: 2842px;
     left: 50px;
     font-style: normal; 
 }
+
+
 /*конец footer*/
+
